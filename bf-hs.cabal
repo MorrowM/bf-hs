@@ -4,12 +4,13 @@ version:       0.1.0.0
 author:        Morrow
 maintainer:    themorrowm@gmail.com
 
-executable bf-hs
+executable bf
   main-is:          Main.hs
   build-depends:
     , base          ^>=4.14
     , parsec        ^>=3.1
     , transformers  ^>=0.5
 
+  other-modules:    Paths_bf_hs
   hs-source-dirs:   app
   default-language: Haskell2010
